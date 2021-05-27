@@ -1,0 +1,32 @@
+.navbar.fixed-top.navbar-expand-lg {
+    background-color: #99c0bc;
+}
+
+.navbar-brand.mb-0.h1,
+#navbarDropdown {
+    color: white;
+}
+
+/* .navbar-brand.mb-0.h1 {
+    font-size: 30px;
+} */
+
+body {
+    padding-top: 65px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 65px;
+}
+
+.row {
+    padding-top: 5%;
+}
+
+.navbar.fixed-bottom {
+    background-color: #aeaeae;
+}
+
+#footer {
+    font-size: 12px;
+    color: white;
+}
