@@ -4,11 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" type="image/png" href="./resources/logo.png">
         <title>Simplify</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
             integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" text="text/css" href="./assets/style.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,7 +24,7 @@
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1">SIMPLIFY</span>
+                <a href="./index.html"><span class="navbar-brand mb-0 h1">SIMPLIFY</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -32,20 +36,28 @@
                 <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Jump To Section
+                            <a class="nav-link dropdown-toggle rounded" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Jump To Section
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#projStory">Project Story</a></li>
-                                <li><a class="dropdown-item" href="#problem">The Problem</a></li>
-                                <li><a class="dropdown-item" href="#methods">Methods Descriptions</a></li>
-                                <li><a class="dropdown-item" href="#competitive">Competitive Analysis</a></li>
-                                <li><a class="dropdown-item" href="#persona">Users and Personas</a></li>
-                                <li><a class="dropdown-item" href="#design">The Final Design</a></li>
-                                <li><a class="dropdown-item" href="#eval">Evaluation Results</a></li>
-                                <li><a class="dropdown-item" href="#reflection">Reflections</a></li>
-                                <li><a class="dropdown-item" href="#acknowledgments">Acknowledgments</a></li>
-                                <li><a class="dropdown-item" href="#team">The Team</a></li>
+                                <li><a class="dropdown-item" href="#overview">Overview</a></li>
+                                <li><a class="dropdown-item" href="#problem">Problem Statement</a></li>
+                                <li><a class="dropdown-item" href="#audience">Audience</a></li>
+                                <li><a class="dropdown-item" href="#rolRes">Roles & Responsibilities</a></li>
+                                <li><a class="dropdown-item" href="#scoCons">Scope & Constraints</a></li>
+                                <li><a class="dropdown-item" href="#process">Process</a></li>
+
+                                <!-- subtitles under Process -->
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" id="processSubSec" href="#probIdent">&nbsp&nbsp&nbsp&nbsp I. Problem Identification</a></li>
+                                <li><a class="dropdown-item" id="processSubSec" href="#comAna">&nbsp&nbsp&nbsp&nbsp II. Competitive Analysis</a></li>
+                                <li><a class="dropdown-item" id="processSubSec" href="#userResPer">&nbsp&nbsp&nbsp&nbsp III. User Research & Personas</a></li>
+                                <li><a class="dropdown-item" id="processSubSec" href="#userSto">&nbsp&nbsp&nbsp&nbsp IV. User Stories</a></li>
+                                <li><a class="dropdown-item" id="processSubSec" href="#usaHeu">&nbsp&nbsp&nbsp&nbsp V. Usability Testing & Heuristic Evaluation</a></li>
+                                <li><a class="dropdown-item" id="processSubSec" href="#showcase">&nbsp&nbsp&nbsp&nbsp VI. Showcase & Case Study Compilation</a></li>
+                                <li><hr class="dropdown-divider"></li>
+
+                                <li><a class="dropdown-item" href="#findings">Findings & Results</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -55,22 +67,28 @@
 
         <!-- Page Content -->
         <div class="container-fluid" id="mainContent">
-            <div class="row" id="projStory">
+            <!-- <div class="row">
+                <img src="./resources/logo.png" class="img-fluid mx-auto d-block" id="logo" alt="logo-img">
+            </div> -->
+            <div class="row" id="overview">
                 <div class="container-sm" id="projectStoryCont">
-                    <h1 id="projectStoryTitle">Project Story</h1>
+                    <h1 id="projectStoryTitle">Overview</h1>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
-                        has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-                        took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-                        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                        including versions of Lorem Ipsum.
+                        Simplicity is a mobile application that simplifies your shop planning process. 
+                        It presents all of the promotional deals from the grocery stores of your choice. 
+                        It neatly categorizes items for easy searchability and sorts identical products 
+                        by the prices offered by your favorite stores. 
+                    </p>
+                    <p>
+                        Simplicity also brings in a simple shopping list feature that allows you to add, 
+                        remove, and check off items -- just like you do with pen and paper! Discounted items 
+                        added to a list are grouped by stores, so you’ll never forget that one little thing 
+                        after leaving the store.
                     </p>
                 </div>
             </div>
             <div class="row" id="problem">
-                <h3>The Problem</h3>
+                <h4 id="probSecTitle">Problem Statement</h4>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                     has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
@@ -82,8 +100,8 @@
                 </p>
             </div>
             <hr />
-            <div class="row" id="methods">
-                <h3>Methods Descriptions</h3>
+            <div class="row" id="audience">
+                <h4 id="audSecTitle">Audience</h4>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                     has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
@@ -95,8 +113,8 @@
                 </p>
             </div>
             <hr />
-            <div class="row" id="competitive">
-                <h3>Competitive Analysis</h3>
+            <div class="row" id="rolRes">
+                <h4 id="rolResSecTitle">Roles & Responsibilities</h4>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                     has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
@@ -108,8 +126,8 @@
                 </p>
             </div>
             <hr />
-            <div class="row" id="persona">
-                <h3>Users and Personas</h3>
+            <div class="row" id="scoCons">
+                <h4 id="scoConsSecTitle">Scope and Constraints</h4>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                     has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
@@ -121,8 +139,8 @@
                 </p>
             </div>
             <hr />
-            <div class="row" id="design">
-                <h3>The Final Design</h3>
+            <div class="row" id="process">
+                <h4 id="processSecTitle">Process</h4>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                     has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
@@ -134,8 +152,8 @@
                 </p>
             </div>
             <hr />
-            <div class="row" id="eval">
-                <h3>Evaluation Results</h3>
+            <div class="row" id="probIdent">
+                <h5 id="probIdentSecTitle">&nbsp&nbsp&nbsp&nbsp I. Problem Identification</h5>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                     has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
@@ -147,8 +165,8 @@
                 </p>
             </div>
             <hr />
-            <div class="row" id="reflection">
-                <h3>Reflections</h3>
+            <div class="row" id="comAna">
+                <h5 id="comAnaSecTitle">&nbsp&nbsp&nbsp&nbsp II. Competitive Analysis</h5>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                     has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
@@ -160,8 +178,8 @@
                 </p>
             </div>
             <hr />
-            <div class="row" id="acknowledgments">
-                <h3>Acknowledgments</h3>
+            <div class="row" id="userResPer">
+                <h5 id="userResPerSecTitle">&nbsp&nbsp&nbsp&nbsp III. User Research & Personas</h5>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                     has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
@@ -173,8 +191,47 @@
                 </p>
             </div>
             <hr />
-            <div class="row" id="team">
-                <h3>The Team</h3>
+            <div class="row" id="userSto">
+                <h5 id="userStoSecTitle">&nbsp&nbsp&nbsp&nbsp IV. User Stories</h5>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                    took a galley of type and scrambled it to make a type specimen book. It has survived not 
+                    only five centuries, but also the leap into electronic typesetting, remaining essentially 
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+                    including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <hr />
+            <div class="row" id="usaHeu">
+                <h5 id="usaHeuSecTitle">&nbsp&nbsp&nbsp&nbsp V. Usability Testing & Heuristic Evaluation</h5>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                    took a galley of type and scrambled it to make a type specimen book. It has survived not 
+                    only five centuries, but also the leap into electronic typesetting, remaining essentially 
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+                    including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <hr />
+            <div class="row" id="showcase">
+                <h5 id="showcaseSecTitle">&nbsp&nbsp&nbsp&nbsp VI. Showcase & Case Study Compilation</h5>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                    took a galley of type and scrambled it to make a type specimen book. It has survived not 
+                    only five centuries, but also the leap into electronic typesetting, remaining essentially 
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+                    including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <hr />
+            <div class="row" id="findings">
+                <h4 id="findingsSecTitle">Findings & Results</h4>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                     has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
@@ -187,7 +244,7 @@
             </div>
         </div>
     
-        <nav class="navbar fixed-bottom navbar-light ">
+        <nav class="navbar fixed-bottom navbar-dark ">
             <div class="container-fluid">
                 <a class="navbar-brand mx-auto" id="footer" href="#">SWE263P UX Group 3 Course Project</a>
             </div>

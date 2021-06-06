@@ -1,21 +1,32 @@
 .navbar.fixed-top.navbar-expand-lg {
-    background-color: #99c0bc;
+    background-color: #43776e;
 }
 
-.navbar-brand.mb-0.h1,
-#navbarDropdown {
+.navbar-brand.mb-0.h1
+{
     color: white;
+}
+
+.nav-link.dropdown-toggle {
+    background-color: #fba094;
+    font-weight: bold;
 }
 
 /* .navbar-brand.mb-0.h1 {
     font-size: 30px;
 } */
 
+#logo {
+    max-width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
     padding-top: 70px;
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 .row {
@@ -44,7 +55,47 @@ body {
 }
 
 .navbar.fixed-bottom {
-    background-color: #aeaeae;
+    background-color: #7d7d7d;
+}
+
+#probSecTitle, 
+#audSecTitle, 
+#rolResSecTitle,
+#scoConsSecTitle,
+#processSecTitle,
+#probIdentSecTitle,
+#findingsSecTitle
+{
+    color: white;
+    background-color: #55837c;
+    width: 35%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+}
+
+#probIdentSecTitle,
+#comAnaSecTitle,
+#userResPerSecTitle,
+#userStoSecTitle,
+#usaHeuSecTitle,
+#showcaseSecTitle {
+    color: black;
+    background-color: #FBC8C0;
+    width: 50%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* #processSubSec {
+    background-color: #ffefec;
+} */
+
+#processSubSec:hover {
+    background-color: #ffdbd5;
 }
 
 #footer {
