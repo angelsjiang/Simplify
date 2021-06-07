@@ -2,27 +2,27 @@
 
 ![](https://github.com/angelsjiang/Simplify/blob/main/logo.png)
 
-**Table of Contents**
-
 # Basic Contents
-## HTML content
+## [HTML content](https://github.com/angelsjiang/Simplify/blob/main/index.html)
 
 - Text headers
-- Paragraph
+- Paragraphs
 - Horizontal ruler
 - List
-- Image
+- Images with descriptive alt attributes
 - Divider
 - Text span
 
-## CSS styling
+## [CSS styling](https://github.com/angelsjiang/Simplify/blob/main/assets/style.css)
+
 - Modified background color
-```sh
+```js
 .nav-link.dropdown-toggle {
     background-color: #fba094;
     font-weight: bold;
 }
 ```
+
 - Modified padding and margins
 ```sh
 body {
@@ -108,6 +108,13 @@ body {
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
 ```
-# Online resources URLs
-# Other consulted list
 
+# Online resources URLs
+
+- https://www.invisionapp.com/inside-design/how-to-write-a-ux-case-study/
+- https://medium.muz.li/top-10-most-interesting-ux-design-case-studies-to-inspire-your-service-reinvention-in-2018-ea2309e4104b
+- https://uxdesign.cc/fitbit-a-usability-case-study-b23e4c539c3c
+- https://blog.prototypr.io/ux-research-is-boring-and-nobody-reads-it-668edbfc804a
+
+# Other consulted list
+None
