@@ -144,7 +144,17 @@
             <hr />
             <div class="row" id="rolRes">
                 <h4 id="rolResSecTitle">Roles & Responsibilities</h4>
-                <p>.
+                <p>
+                    The team behind Simplicity consists of Shulin “Angel” Jiang, Mandy Tsai, and Zitian Li. We are 
+                    software engineering students with varying academic backgrounds, including Pharmacological 
+                    Chemistry, Informatics, and Social Science. Having shared frustration on shop planning, we 
+                    decided to work together and design a solution that may end our concerns once and for all. 
+                    Throughout the research and development process, the members contributed their best efforts 
+                    to deliver the prototype of Simplicity. 
+                    <br><br>
+                    The stakeholders of this project include Professor Matthew J Bietz, Agnes Romhanyi, and Dennis 
+                    Wang. Throughout the project life, they continue to provide insights, guidance, and professional 
+                    feedback to the team to bring forth the most suitable solution for our audience.
                 </p>
             </div>
             <hr />
@@ -187,7 +197,7 @@
                 <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                             I. Problem Identification
                         </button>
                       </h2>
@@ -407,12 +417,12 @@
                                 <div class="table-responsive" id="personaTable">
                                     <table class="table align-middle">
                                         <tr>
-                                            <td><img id="personas" src="./resources/Persona-WIlliamChan.jpg" alt="Persona-WIlliamChan"></td>
-                                            <td><img id="personas" src="./resources/Persona-MiaDavis.jpg" alt="Persona-MiaDavis"></td>
+                                            <td><img id="personas" src="./resources/personas/Persona-WIlliamChan.jpg" alt="Persona-WIlliamChan"></td>
+                                            <td><img id="personas" src="./resources/personas/Persona-MiaDavis.jpg" alt="Persona-MiaDavis"></td>
                                         </tr>
                                         <tr>
-                                            <td><img id="personas" src="./resources/Persona-ShintaroYamamoto.jpg" alt="Persona-ShintaroYamamoto"></td>
-                                            <td><img id="personas" src="./resources/Persona-AndreaReyes.jpg" alt="Persona-AndreaReyes"></td>
+                                            <td><img id="personas" src="./resources/personas/Persona-ShintaroYamamoto.jpg" alt="Persona-ShintaroYamamoto"></td>
+                                            <td><img id="personas" src="./resources/personas/Persona-AndreaReyes.jpg" alt="Persona-AndreaReyes"></td>
                                         </tr>
                                     </table>
                                 </div>
@@ -428,19 +438,283 @@
                         </h2>
                         <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                           <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
+                            <p>
+                                Using the information collected from the interviews, the team brainstormed a collection of 
+                                user stories that describe what our audience may experience. In each story, we described our 
+                                audience’s role, their goal, and their motivation behind the goal. Furthermore, we assigned 
+                                a priority and described at least one scenario as a resolution for each story.
+                                <br>
+                                Some of our user stories include:
+                            </p>
+                            <p>
+                                <i>
+                                    As a grocery shopper, I want to know the duration of the sale, so I don't miss the deal.
+                                </i>
+                            </p>
+                                <p id="userStoriesSpecialSection">
+                                    <strong>Scenario A</strong><br>
+                                    Given that the store releases the information, when the shopper searches for it, he will 
+                                    know the end date of the sale.
+                                    <br><br>
+                                    <strong>Scenario B</strong><br>
+                                    Given that the store updates the sale information, when the shopper opens the app, he 
+                                    can see what kind of sale is going on, including the start and end dates of the sale.
+                                </p>
+                                <hr>
+                            <p>
+                                <i>
+                                    As a planner, I want to know the prices of a specific product from different stores, 
+                                    so I can decide on where to go.
+                                </i>
+                            </p>
+                                <p id="userStoriesSpecialSection">
+                                    <strong>Scenario</strong><br>
+                                    Given that the stores release such information on their websites, when the user goes 
+                                    on websites, he will know what price each store is selling the product for.
+                                </p>
+                                <hr>
+                            <p>
+                                <i>
+                                    As a planner and shopper, I want to know the stores near me, so I know where to get 
+                                    my groceries.
+                                </i>
+                            </p>
+                                <br>
+                                <p id="userStoriesSpecialSection">
+                                    Scenario A
+                                    Given that the user knows where she is, when she searches for her zip code on a map, 
+                                    she can find the stores near her.
+
+                                    Scenario B
+                                    Given that the user's device has a location service, when the user searches with the 
+                                    location captured, she can find the stores near her.
+                                </p>
+                            <br>
+                            <p>
+                                After the creation of our user stories, we designed our first wireframes and included 
+                                features that resolved most of the high and medium priority stories.
+                                <br><br>
+                                To resolve the first user story shared above, we decided to combine the scenarios and to 
+                                display a message that reminds the user if the sale is almost over. To resolve the second 
+                                user story, we display all of the prices offered by the stores that the user subscribes to 
+                                and sort the results by price in ascending order. Finally, to resolve the third user story, 
+                                we combined the scenarios and gave users the choice to manually enter a zip code or to use 
+                                the information captured by the device’s built-in location service.
+                            </p>
+                            <div class="table-responsive">
+                                <table class="table" id="userStoriesTable">
+                                    <tr>
+                                        <td><img id="userStoriesImg" src="./resources/user_stories/user stories - left.png" alt="user-stories-screenshot1"></td>
+                                        <td><img id="userStoriesImg" src="./resources/user_stories/user stories - center.png" alt="user-stories-screenshot2"></td>
+                                        <td><img id="userStoriesImg" src="./resources/user_stories/user stories -right.png" alt="user-stories-screenshot3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>The wireframe for the list details screen.</td>
+                                        <td>The wireframe for the product prices screen.</td>
+                                        <td>The wireframe for the location input screen.</td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
-                      </div>
-                      <div class="accordion-item">
+                        </div>
+                    </div>
+                    <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
                             V. Usability Testing & Heuristic Evaluation
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-                          <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <div class="accordion-body">
+                                <p>
+                                    In the usability test, or user evaluation, process, we recruited seven participants to test 
+                                    the first version of our wireframes. We developed a protocol consisting of five specific goal 
+                                    oriented tasks, a broad reflective task, and some general closing questions. 
+                                    <br><br>
+                                    These five tasks allow the participants to explore the main functionalities of the application. 
+                                    The order of the tasks was designed so that the participants explored through as many screens 
+                                    as possible. More specifically, the participants must go through at least three screens to 
+                                    complete each task. In this process, we asked them to think out loud as they interact with the 
+                                    wireframe and interrupted as little as possible.
+                                    <br><br>
+                                    From the concluding questions, we got a lot of suggestions about how they wished the application 
+                                    could be improved upon. As a team, we gathered our analyzed data and shared our insights to discuss 
+                                    how the wireframe can be improved. We created a list of issues to be resolved, assigned a priority 
+                                    to each issue, and designed a solution for each issue. 
+                                    <br><br>
+                                    Some of the issues include:                                
+                                </p>
+                                <p id="usaHeuSpecialSection">
+                                    <i>
+                                        The goal of the store selection activity page seems to be ambiguous to the participants.
+                                    </i>
+                                    <br>
+                                    &nbsp&nbsp&nbsp&nbsp 
+                                    Solution: Put store selection on the same page as the zip code search bar
+
+                                    <i>
+                                        Some participants were confused by the “ends tomr” message
+                                    </i>
+                                    <br>
+                                    &nbsp&nbsp&nbsp&nbsp 
+                                    Solution: Add the keyword “sales” in the message
+
+                                    <i>
+                                        Some participants were confused by what the “delete” button will delete. (Is it the whole 
+                                        list, or is it a few items?)
+                                    </i>
+                                    &nbsp&nbsp&nbsp&nbsp 
+                                    Solution: Use the swipe gesture to show more options, including “delete”
+                                </p>
+                                <p>
+                                    With the list of issues organized, we began our second iteration of the wireframes. We adopted the solutions proposed as a team and the wireframes were updated as follows.
+                                    <br><br>
+                                    <strong>Note the addition of the zip code search bar:</strong>                             
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table" id="usaHeuTable">
+                                        <tr>
+                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 1 left.png" alt="user-testing-row1-screenshot1"></td>
+                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 1 right.png" alt="user-testing-row1-screenshot2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>The first iteration wireframe for the store selection screen.</td>
+                                            <td>The second iteration wireframe for the store selection screen.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <br><br>
+                                <p>
+                                    <strong>Note the update in the alert message:</strong>                             
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table" id="usaHeuTable">
+                                        <tr>
+                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 2 left.png" alt="user-testing-row2-screenshot1"></td>
+                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 2 right.png" alt="user-testing-row2-screenshot2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>The first iteration wireframe for the list details screen.</td>
+                                            <td>The second iteration wireframe for the list details screen.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <br><br>
+                                <p>
+                                    <strong>Note the migration of the delete button from the list details screen to the list collection screen:</strong>                             
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table" id="usaHeuTable">
+                                        <tr>
+                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 3 left.png" alt="user-testing-row3-screenshot1"></td>
+                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 3 right.png" alt="user-testing-row3-screenshot2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>The first iteration wireframe for the list details screen.</td>
+                                            <td>The second iteration wireframe for the list collection screen.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <br><br>
+                                <p>
+                                    After the usability testing process, we evaluated our latest wireframes against Nielson’s 
+                                    10 Usability Heuristics for User Interface Design (https://www.nngroup.com/articles/ten-usability-heuristics/). 
+                                    The members first completed the evaluation individually. This freed the members from each 
+                                    other’s constraints and encouraged them to think in their own creative ways.
+                                    <br><br>
+                                    After all of the members completed their individual evaluations, we discussed each issue that 
+                                    we discovered and shared insights on possible solutions. Similar to the usability testing process, 
+                                    we assigned a priority to and decided on a solution to adopt for each issue.
+                                    <br><br>
+                                    Some of the issues include:
+                                </p>
+                                <p id="usaHeuSpecialSection">
+                                    <i>
+                                        After updating profile information (username, email, or password), the system does not 
+                                        provide feedback on whether the change was written successfully.
+                                        <br>
+                                        The same case is observed for account registration.
+                                    </i>
+                                    <br>
+                                    &nbsp&nbsp&nbsp&nbsp 
+                                    Solution: Pop a toast to inform whether the operation is successful.
+
+                                    <i>
+                                        The elements (action bar, menu bar, buttons, input fields, typographies) do not match 
+                                        Android's Material Design guidelines.
+                                    </i>
+                                    <br>
+                                    &nbsp&nbsp&nbsp&nbsp 
+                                    Solution: Follow the design guidelines.
+
+                                    <i>
+                                        The email field should help prevent errors by performing basic syntax checks.
+                                    </i>
+                                    &nbsp&nbsp&nbsp&nbsp 
+                                    Solution: Adopt an error helper text for password checks
+                                </p>
+                                <p>
+                                    With the new list of issues organized, we began our final iteration of design -- 
+                                    the high-fidelity mockups. We adopted the solutions proposed as a team and the 
+                                    designs were updated as follows.
+                                </p>
+                                <br>
+                                <p>
+                                    <strong>Note the toast that is popped with the message “Email Updated!”:</strong>                             
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table" id="usaHeuTable">
+                                        <tr>
+                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 1 left.png" alt="user-eval-row1-screenshot1"></td>
+                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 1 right.png" alt="user-eval-row1-screenshot2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>The second iteration of the wireframe for the screen shown after the email update 
+                                                action is completed.</td>
+                                            <td>The mockup for the screen shown after the email update action is completed.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <br><br>
+                                <p>
+                                    <strong>Note the following changes on this page:</strong>        
+                                    <ul>
+                                        <li>The title now rests in the action bar</li>
+                                        <li>The input field displays a clear distinction between helper text and user input</li>
+                                        <li>The button takes the primary color and is now elevated to hint that it is clickable</li>
+                                        <li>The bottom navigation options are now labeled and display a distinction between the 
+                                            enabled and the selected states</li>
+                                    </ul>                     
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table" id="usaHeuTable">
+                                        <tr>
+                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 2 left.png" alt="user-eval-row2-screenshot1"></td>
+                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 2 right.png" alt="user-eval-row2-screenshot2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>The second iteration of the wireframe for the verification code screen for the email 
+                                                updating process.</td>
+                                            <td>The mockup for the verification code screen for the email updating process.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <br><br>
+                                <p>
+                                    <strong>Note the toast that is popped with the message “Email Updated!”:</strong>                             
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table" id="usaHeuTable">
+                                        <tr>
+                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 3 left.png" alt="user-eval-row3-screenshot1"></td>
+                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 3 right.png" alt="user-eval-row3-screenshot2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>The second iteration of the wireframe for the email update screen.</td>
+                                            <td>The mockup for the email update screen.</td>
+                                        </tr>
+                                    </table>
+                                </div>
                           </div>
                         </div>
                       </div>
@@ -451,24 +725,39 @@
                           </button>
                         </h2>
                         <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
-                          <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
+                            <div class="accordion-body">
+                                <p>
+                                    After the mockup is built, we formally showcased the final product to our stakeholders 
+                                    and compiled this case study for the general public.
+                                </p>
+                            </div>
                         </div>
-                      </div>
-                  </div>
+                    </div>
+                </div>
 
-            <hr />
             <div class="row" id="findings">
-                <h4 id="findingsSecTitle">Findings & Results</h4>
+                <h4 id="findingsSecTitle">Outcomes & Results</h4>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
-                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-                    took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                    only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                    including versions of Lorem Ipsum.
+                    The outcome of this project is an interactive prototype that is ready to be implemented. The team 
+                    is satisfied with and proud of the outcome. 
+                    <br><br>
+                    The team learned a lot of things from this project. Some of the most important lessons include the 
+                    general evolution of a system’s user interface and experience design. The research done for this 
+                    project is unlike any previous courses taken with the Master of Software Engineering program at 
+                    UC Irvine. This course helped us learn how much it takes to construct a good user experience and 
+                    how potential users’ feedback may contradict our imagination and assumptions as we design. 
+                    <br><br>
+                    Some of the challenges we faced include team and participant availability. Because the team had 
+                    other responsibilities of other courses, the team was not able to spend forty hours per week (as 
+                    if this were a work project) on this project. That often led to delayed replies to text messages 
+                    and piled up work over the weekends. At the same time, participant availability had also postponed 
+                    some informal deadlines that we set for ourselves, making last minute meetings necessary at times.
+                    <br><br>
+                    If we had extra resources, we would like to recruit a significant number of randomly selected 
+                    participants, so our data is representative of the population. Because of the time constraint, 
+                    we were only able to reach out to several participants. Because of the resource constraint, we were 
+                    only able to reach out to people we know. These two factors prevented our research results from 
+                    being representative of the audience this application is designed for.
                 </p>
             </div>
         </div>
