@@ -108,7 +108,6 @@ body {
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
 ```
-```
 - Video
 ```sh
 <!-- Video -->
