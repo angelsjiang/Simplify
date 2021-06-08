@@ -86,7 +86,21 @@ body {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+
+#specialPhrases {
+    background-color: #ffd1c8;
+}
+
+#paraLinks {
+    color: #bb6256;
+}
+
+#paraLinks:hover {
+    color: black;
+    background-color: #fba094;
 }
 
 #paragraphList {
@@ -119,10 +133,9 @@ table {
     padding: 3px;
 }
 
-#scopeConstImg {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+#scopeConstImg,
+#userResearchImg {
+    width: 100%;
     padding: 5%;
 }
 
@@ -149,7 +162,8 @@ table {
     margin-right: auto;
 }
 
-#userStoriesImg {
+#userStoriesImg,
+#usaHeuImg {
     width: 270px;
 }
 
@@ -159,9 +173,9 @@ table {
     margin-right: auto;
 }
 
-#usaHeuImg {
+/* #usaHeuImg {
     width: 270px;
-}
+} */
 
 /* #processSubSec {
     background-color: #ffefec;
@@ -169,6 +183,18 @@ table {
 
 #processSubSec:hover {
     background-color: #ffdbd5;
+}
+
+#demo {
+    text-align: center;
+    font-family: 'Limelight', cursive;
+}
+
+video {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
 }
 
 #footer {
