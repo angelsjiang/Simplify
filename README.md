@@ -109,12 +109,17 @@ body {
                         <li class="nav-item dropdown">
 ```
 
-# Online resources URLs
+# Online resources links
 
-- https://www.invisionapp.com/inside-design/how-to-write-a-ux-case-study/
-- https://medium.muz.li/top-10-most-interesting-ux-design-case-studies-to-inspire-your-service-reinvention-in-2018-ea2309e4104b
-- https://uxdesign.cc/fitbit-a-usability-case-study-b23e4c539c3c
-- https://blog.prototypr.io/ux-research-is-boring-and-nobody-reads-it-668edbfc804a
+- [How to write a ux case study](https://www.invisionapp.com/inside-design/how-to-write-a-ux-case-study/)
+- [Top 10 most interesting UX design case](https://medium.muz.li/top-10-most-interesting-ux-design-case-studies-to-inspire-your-service-reinvention-in-2018-ea2309e4104b)
+- [Fitbit a usability case study](https://uxdesign.cc/fitbit-a-usability-case-study-b23e4c539c3c)
+- [UX research is boring and nobody reads it](https://blog.prototypr.io/ux-research-is-boring-and-nobody-reads-it-668edbfc804a)
+- [Design basics annotating your work](https://medium.com/wayfair-design/design-basics-annotating-your-work-6eac0562097f)
+- [How to rate the serverity of usability problems](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
+- [Ten usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
 
 # Other consulted list
-None
+- Professor, Matt Bietz
+- TA, Agnes Romhanyi
+- TA, Dennis Wang
