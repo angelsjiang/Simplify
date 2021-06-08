@@ -118,6 +118,10 @@ body {
 - [Design basics annotating your work](https://medium.com/wayfair-design/design-basics-annotating-your-work-6eac0562097f)
 - [How to rate the serverity of usability problems](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
 - [Ten usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
+- [Android Material Design Guidelines - Theming](https://material.io/develop/android)
+- [Android Material Design Guidelines - Material Foundation](https://material.io/design)
+- [Android Material Design Guidelines - Components](https://material.io/components)
+- [Moms’ Shopping Habits and Their Path to Purchase [Infographic]](https://www.fluentco.com/blog/moms-shopping-habits/)
 
 # Other consulted list
 - Professor, Matt Bietz
