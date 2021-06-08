@@ -14,6 +14,8 @@ a {
 .nav-link.dropdown-toggle {
     background-color: #fba094;
     font-weight: bold;
+    width: 160px;
+    text-align: center;
 }
 
 /* .navbar-brand.mb-0.h1 {
