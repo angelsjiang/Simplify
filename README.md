@@ -108,6 +108,16 @@ body {
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
 ```
+```
+- Video
+```sh
+<!-- Video -->
+    <video controls>
+        <source src="./resources/demo.mp4" type="video/mp4">
+        Demo video for Simplify application.<br>
+        Your browser does not support HTML5 video.
+    </video>
+```
 
 # Online resources links
 
