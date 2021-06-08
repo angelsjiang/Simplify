@@ -9,7 +9,7 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
             integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <link rel="stylesheet" text="text/css" href="./assets/style.css">
+        <link rel="stylesheet" href="./assets/style.css">
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,7 +35,7 @@
                     </ul>
                 </div> -->
 
-                <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle rounded" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -109,7 +109,7 @@
                 </p>
                 <p>
                     To address this series of problems, we first define our essential goal as to develop 
-                    <strong id="specialPhrases"><i>a service that helps people save money on groceries</i></strong> 
+                    <strong id="specialPhrases_1"><i>a service that helps people save money on groceries</i></strong>
                     To do that, we conducted a series of research on experts and on potential users. In 
                     the following sections, we will discuss our methods and findings. Then, we will present 
                     the evolution of our design based on the evidence collected.
@@ -180,13 +180,12 @@
                     There are two significant constraints: time and budget. From problem identification to the final 
                     howcase, the project spanned a total of three months, from March 29th to June 9th of 2021. Without 
                     a budget, the team relied solely on free online collaboration tools:
-                    <ul id="paragraphList">
+                    <ul id="paragraphList_2">
                         <li>Google’s cloud-native tools (Drive, Docs, Slides, and Sheets) for content compilation</li>
                         <li>Figma with free Education licenses offered by UC Irvine for wireframe and prototype development</li>
                         <li>Trello for project management</li>
                         <li>Discord and Slack for team and stakeholder communications</li>
                     </ul>
-                </p>
             </div>
             <hr />
             <div class="row" id="process">
@@ -235,32 +234,39 @@
                       </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                            II. Competitive Analysis
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body">
-                            <p>
-                                In our competitive analysis, we explored the market and discovered existing services 
-                                that propose solutions to our overarching research goal. We looked at direct and indirect 
-                                competitors. We learned about their target audience, the unique services that they offer, 
-                                the things that they are doing right, and the things they are not doing right. In this 
-                                section, we will briefly compare three competitors, two of which are direct competitors 
-                                and the other indirect.
-                            </p>
-                            <div class="table-responsive-md">
-                                <table class="table">
-                                    <thead>
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                II. Competitive Analysis
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                             aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <p>
+                                    In our competitive analysis, we explored the market and discovered existing services
+                                    that propose solutions to our overarching research goal. We looked at direct and
+                                    indirect
+                                    competitors. We learned about their target audience, the unique services that they
+                                    offer,
+                                    the things that they are doing right, and the things they are not doing right. In
+                                    this
+                                    section, we will briefly compare three competitors, two of which are direct
+                                    competitors
+                                    and the other indirect.
+                                </p>
+                                <div class="table-responsive-md">
+                                    <table class="table">
+                                        <thead>
                                         <tr>
                                             <th scope="col"></th>
                                             <th scope="col">Flipp</th>
                                             <th scope="col">Grocery Pal</th>
                                             <th scope="col">Ralphs</th>
-                                        </tr>    
-                                    </thead>
-                                    <tbody>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
                                         <tr>
                                             <th scope="row">Direct Competitor</th>
                                             <td>✓</td>
@@ -303,88 +309,109 @@
                                             <td></td>
                                             <td>✓</td>
                                         </tr>
-                                    </tbody>
-                                </table>
-                                <p id="annotations">
-                                    *Flipp (<a href="flipp.com">flipp.com</a>) by Flipp Corporation
-                                    <br>*Grocery Pal by Twicular, Inc.
-                                    <br>*Ralphs  (<a href="ralphs.com">ralphs.com</a>) by The Kroger Company
-                                </p>    
+                                        </tbody>
+                                    </table>
+                                    <p id="annotations">
+                                        *Flipp (<a href="https://flipp.com/home">flipp.com</a>) by Flipp Corporation
+                                        <br>*Grocery Pal by Twicular, Inc.
+                                        <br>*Ralphs (<a href="https://www.ralphs.com/">ralphs.com</a>) by The Kroger Company
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            III. User Research & Personas
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body">
-                            <p>
-                                To understand our audience, we developed an interview protocol and recruited nine 
-                                participants of varying cultural and educational backgrounds. Asking open-ended and 
-                                closed-ended questions, we learned about their personal experiences on both the 
-                                planning and the shopping process. When we shared our findings among the team, we 
-                                realized surprisingly many commonalities in practice between the participants, despite 
-                                their diverse backgrounds.
-                                <br>
-                                Some reappearing factors that shaped the interviewees’ shopping habits include store 
-                                distance, store specialities, weekly sales, and product prices. Of the twenty groups 
-                                created during the construction of the affinity diagram, there were several that confirmed 
-                                our hypotheses raised in the project proposal. They are:
-                                <ul id="paragraphList">
+
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                III. User Research & Personas
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                             aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <p>
+                                    To understand our audience, we developed an interview protocol and recruited nine
+                                    participants of varying cultural and educational backgrounds. Asking open-ended and
+                                    closed-ended questions, we learned about their personal experiences on both the
+                                    planning and the shopping process. When we shared our findings among the team, we
+                                    realized surprisingly many commonalities in practice between the participants,
+                                    despite
+                                    their diverse backgrounds.
+                                    <br>
+                                    Some reappearing factors that shaped the interviewees’ shopping habits include store
+                                    distance, store specialities, weekly sales, and product prices. Of the twenty groups
+                                    created during the construction of the affinity diagram, there were several that
+                                    confirmed
+                                    our hypotheses raised in the project proposal. They are:
+                                <ul id="paragraphList_3">
                                     <li>I don’t read physical advertisements</li>
                                     <li>Sales are very important to me</li>
                                     <li>I don’t actively look for sales information</li>
                                 </ul>
-                                Other popular opinions among the interviewees that will affect our product design include:
-                                <ul id="paragraphList">
+                                Other popular opinions among the interviewees that will affect our product design
+                                include:
+                                <ul id="paragraphList_4">
                                     <li>I use the built-in notes application on my phone to make my shopping list</li>
                                     <li>I plan what to buy before my trip, though it may not take a physical form</li>
                                     <li>I don’t usually use tools in my grocery shopping process</li>
                                     <li>I change my plans depending on what is on sale</li>
-                                    <li>I use the store’s website or mobile application to look up sales information</li>
+                                    <li>I use the store’s website or mobile application to look up sales information
+                                    </li>
                                     <li>I am convinced to buy the products that are on sale</li>
                                 </ul>
-                                <img id="userResearchImg" src="./resources/user_research/UserResearch-1.jpg" alt="Notes-from-user-research">
+                                <img id="userResearchImg" src="./resources/user_research/UserResearch-1.jpg"
+                                     alt="Notes-from-user-research">
                                 <br>
-                                <strong id="subSecTitles">&nbsp&nbsp&nbsp&nbsp DEMOGRAPHICS & EXPERIENCES &nbsp&nbsp&nbsp&nbsp</strong>
+                                <strong id="subSecTitles_2">&nbsp;&nbsp;&nbsp;&nbsp; DEMOGRAPHICS & EXPERIENCES
+                                    &nbsp;&nbsp;&nbsp;&nbsp;</strong>
                                 <br>
-                                All but one of our interviewees are young adults at the age range of 20 to 30 years old. 
-                                Having only one interviewee in her 50s may cause our results to be heavily skewed towards 
-                                the younger demographic. 
+                                All but one of our interviewees are young adults at the age range of 20 to 30 years old.
+                                Having only one interviewee in her 50s may cause our results to be heavily skewed
+                                towards
+                                the younger demographic.
                                 <br>
-                                The academic background of our interviewees includes: user experience design, computer 
-                                science, biological science, economy, and more. All of the interviewees had an occupation 
-                                at the time when the interviews were conducted, and some had plans to further develop their 
-                                academic careers. 
+                                The academic background of our interviewees includes: user experience design, computer
+                                science, biological science, economy, and more. All of the interviewees had an
+                                occupation
+                                at the time when the interviews were conducted, and some had plans to further develop
+                                their
+                                academic careers.
                                 <br>
-                                The gender ratio in our interview is roughly 1 to 1; we interviewed four females and five 
-                                males. We also asked about their families as we expected their answers to affect their 
+                                The gender ratio in our interview is roughly 1 to 1; we interviewed four females and
+                                five
+                                males. We also asked about their families as we expected their answers to affect their
                                 shopping habits.
                                 <br>
-                                While none of our interviewees has kids, we found from both our lives and from 
-                                <a id="paraLinks" href="https://www.fluentco.com/blog/moms-shopping-habits/">research done on parents’ shopping behaviors</a>, 
-                                which differs from the data that we collected. The research proved that being a parent, or 
-                                more specifically a mother, largely impacts one’s lifestyle. Therefore, this is an important 
-                                factor in diversifying opinions and feedback on information gathering and grocery shopping 
+                                While none of our interviewees has kids, we found from both our lives and from
+                                <a id="paraLinks_1" href="https://www.fluentco.com/blog/moms-shopping-habits/">research
+                                    done on parents’ shopping behaviors</a>,
+                                which differs from the data that we collected. The research proved that being a parent,
+                                or
+                                more specifically a mother, largely impacts one’s lifestyle. Therefore, this is an
+                                important
+                                factor in diversifying opinions and feedback on information gathering and grocery
+                                shopping
                                 experiences. We will be taking parenthood into consideration in our product design.
                                 <br>
                                 <br>
                                 <br>
 
-                                <strong id="subSecTitles">&nbsp&nbsp&nbsp&nbsp SHOPPING PLANS & ITEMS PURCHASED &nbsp&nbsp&nbsp&nbsp</strong>
+                                <strong id="subSecTitles_3">&nbsp;&nbsp;&nbsp;&nbsp; SHOPPING PLANS & ITEMS PURCHASED
+                                    &nbsp;&nbsp;&nbsp;&nbsp;</strong>
                                 <br>
-                                Four out of nine interviewees reported that they usually plan their shopping lists before 
-                                they head to the grocery store. However, it is important to emphasize that three of those 
-                                four also mentioned that they often purchase products that are not on their shopping lists.
+                                Four out of nine interviewees reported that they usually plan their shopping lists
+                                before
+                                they head to the grocery store. However, it is important to emphasize that three of
+                                those
+                                four also mentioned that they often purchase products that are not on their shopping
+                                lists.
                                 <br>
-                                While most of our interviewees expressed that the price of the products will affect their 
-                                decisions, how they react to prices can be divided into three groups: 
+                                While most of our interviewees expressed that the price of the products will affect
+                                their
+                                decisions, how they react to prices can be divided into three groups:
                                 <br>
-                                <ul id="paragraphList">
+                                <ul id="paragraphList_5">
                                     <li>I change my plans depending on what’s on sale</li>
                                     <li>My shopping list is heavily influenced by the items on sale</li>
                                     <li>I price-match products based on my knowledge and experience</li>
@@ -392,46 +419,60 @@
                                 <br>
                                 <br>
 
-                                <strong id="subSecTitles">&nbsp&nbsp&nbsp&nbsp THE USE OF TOOLS &nbsp&nbsp&nbsp&nbsp</strong>
+                                <strong id="subSecTitles_4">&nbsp;&nbsp;&nbsp;&nbsp; THE USE OF TOOLS
+                                    &nbsp;&nbsp;&nbsp;&nbsp;</strong>
                                 <br>
-                                Four out of nine interviewees mentioned that they use the built-in notes application on their 
-                                phone to build their shopping list, although one of the four specified that he only uses it when 
-                                there are too many things to buy. 
+                                Four out of nine interviewees mentioned that they use the built-in notes application on
+                                their
+                                phone to build their shopping list, although one of the four specified that he only uses
+                                it when
+                                there are too many things to buy.
                                 <br>
-                                Six out of nine interviewees reported that they do not read physical advertisements. While one 
-                                of the six interviewees explained that it is because she rarely receives them, the others thought 
-                                negatively of physical advertisements. 
+                                Six out of nine interviewees reported that they do not read physical advertisements.
+                                While one
+                                of the six interviewees explained that it is because she rarely receives them, the
+                                others thought
+                                negatively of physical advertisements.
                                 <br>
-                                Four interviewees, three of whom do not read physical advertisements, mentioned that they use 
-                                the store’s websites or mobile applications to look up sales information. Two interviewees mentioned 
-                                that they have tried third-party services before, but they no longer use them because of varying 
+                                Four interviewees, three of whom do not read physical advertisements, mentioned that
+                                they use
+                                the store’s websites or mobile applications to look up sales information. Two
+                                interviewees mentioned
+                                that they have tried third-party services before, but they no longer use them because of
+                                varying
                                 pain points.
                                 <br>
                                 <br>
                                 <br>
 
-                                <strong id="subSecTitles">&nbsp&nbsp&nbsp&nbsp PERSONAS &nbsp&nbsp&nbsp&nbsp</strong>
+                                <strong id="subSecTitles_5">&nbsp;&nbsp;&nbsp;&nbsp; PERSONAS &nbsp;&nbsp;&nbsp;&nbsp;</strong>
                                 <br>
-                                We created four personas that capture the interview data collected. For each persona, we described 
-                                the fictional character’s age, gender, relationship status, academic background, occupation, and 
+                                We created four personas that capture the interview data collected. For each persona, we
+                                described
+                                the fictional character’s age, gender, relationship status, academic background,
+                                occupation, and
                                 personal experiences.
                                 <br>
                                 <br>
                                 <div class="table-responsive" id="personaTable">
                                     <table class="table align-middle">
                                         <tr>
-                                            <td><img id="personas" src="./resources/personas/Persona-WIlliamChan.jpg" alt="Persona-WIlliamChan"></td>
-                                            <td><img id="personas" src="./resources/personas/Persona-MiaDavis.jpg" alt="Persona-MiaDavis"></td>
+                                            <td><img id="personas_1" src="./resources/personas/Persona-WIlliamChan.jpg"
+                                                     alt="Persona-WIlliamChan"></td>
+                                            <td><img id="personas_2" src="./resources/personas/Persona-MiaDavis.jpg"
+                                                     alt="Persona-MiaDavis"></td>
                                         </tr>
                                         <tr>
-                                            <td><img id="personas" src="./resources/personas/Persona-ShintaroYamamoto.jpg" alt="Persona-ShintaroYamamoto"></td>
-                                            <td><img id="personas" src="./resources/personas/Persona-AndreaReyes.jpg" alt="Persona-AndreaReyes"></td>
+                                            <td><img id="personas_3"
+                                                     src="./resources/personas/Persona-ShintaroYamamoto.jpg"
+                                                     alt="Persona-ShintaroYamamoto"></td>
+                                            <td><img id="personas_4" src="./resources/personas/Persona-AndreaReyes.jpg"
+                                                     alt="Persona-AndreaReyes"></td>
                                         </tr>
                                     </table>
                                 </div>
-                            </p>
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingFour">
@@ -454,7 +495,7 @@
                                     As a grocery shopper, I want to know the duration of the sale, so I don't miss the deal.
                                 </i>
                             </p>
-                                <p id="userStoriesSpecialSection">
+                                <p id="userStoriesSpecialSection_1">
                                     <strong>Scenario A</strong><br>
                                     Given that the store releases the information, when the shopper searches for it, he will 
                                     know the end date of the sale.
@@ -470,7 +511,7 @@
                                     so I can decide on where to go.
                                 </i>
                             </p>
-                                <p id="userStoriesSpecialSection">
+                                <p id="userStoriesSpecialSection_2">
                                     <strong>Scenario</strong><br>
                                     Given that the stores release such information on their websites, when the user goes 
                                     on websites, he will know what price each store is selling the product for.
@@ -483,7 +524,7 @@
                                 </i>
                             </p>
                                 <br>
-                                <p id="userStoriesSpecialSection">
+                                <p id="userStoriesSpecialSection_3">
                                     Scenario A
                                     Given that the user knows where she is, when she searches for her zip code on a map, 
                                     she can find the stores near her.
@@ -507,9 +548,9 @@
                             <div class="table-responsive">
                                 <table class="table" id="userStoriesTable">
                                     <tr>
-                                        <td><img id="userStoriesImg" src="./resources/user_stories/user stories - left.png" alt="user-stories-screenshot1"></td>
-                                        <td><img id="userStoriesImg" src="./resources/user_stories/user stories - center.png" alt="user-stories-screenshot2"></td>
-                                        <td><img id="userStoriesImg" src="./resources/user_stories/user stories -right.png" alt="user-stories-screenshot3"></td>
+                                        <td><img id="userStoriesImg_1" src="./resources/user_stories/user_stories-left.png" alt="user-stories-screenshot1"></td>
+                                        <td><img id="userStoriesImg_2" src="./resources/user_stories/user_stories-center.png" alt="user-stories-screenshot2"></td>
+                                        <td><img id="userStoriesImg_3" src="./resources/user_stories/user_stories-right.png" alt="user-stories-screenshot3"></td>
                                     </tr>
                                     <tr>
                                         <td>The wireframe for the list details screen.</td>
@@ -547,26 +588,26 @@
                                     <br><br>
                                     Some of the issues include:                                
                                 </p>
-                                <p id="usaHeuSpecialSection">
+                                <p id="usaHeuSpecialSection_1">
                                     <i>
                                         The goal of the store selection activity page seems to be ambiguous to the participants.
                                     </i>
                                     <br>
-                                    &nbsp&nbsp&nbsp&nbsp 
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
                                     Solution: Put store selection on the same page as the zip code search bar
 
                                     <i>
                                         Some participants were confused by the “ends tomr” message
                                     </i>
                                     <br>
-                                    &nbsp&nbsp&nbsp&nbsp 
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
                                     Solution: Add the keyword “sales” in the message
 
                                     <i>
                                         Some participants were confused by what the “delete” button will delete. (Is it the whole 
                                         list, or is it a few items?)
                                     </i>
-                                    &nbsp&nbsp&nbsp&nbsp 
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
                                     Solution: Use the swipe gesture to show more options, including “delete”
                                 </p>
                                 <p>
@@ -575,10 +616,10 @@
                                     <strong>Note the addition of the zip code search bar:</strong>                             
                                 </p>
                                 <div class="table-responsive">
-                                    <table class="table" id="usaHeuTable">
+                                    <table class="table" id="usaHeuTable_1">
                                         <tr>
-                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 1 left.png" alt="user-testing-row1-screenshot1"></td>
-                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 1 right.png" alt="user-testing-row1-screenshot2"></td>
+                                            <td><img id="usaHeuImg_1" src="resources/testing/testing-row_1_left.png" alt="user-testing-row1-screenshot1"></td>
+                                            <td><img id="usaHeuImg_2" src="resources/testing/testing-row_1_right.png" alt="user-testing-row1-screenshot2"></td>
                                         </tr>
                                         <tr>
                                             <td>The first iteration wireframe for the store selection screen.</td>
@@ -591,10 +632,10 @@
                                     <strong>Note the update in the alert message:</strong>                             
                                 </p>
                                 <div class="table-responsive">
-                                    <table class="table" id="usaHeuTable">
+                                    <table class="table" id="usaHeuTable_2">
                                         <tr>
-                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 2 left.png" alt="user-testing-row2-screenshot1"></td>
-                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 2 right.png" alt="user-testing-row2-screenshot2"></td>
+                                            <td><img id="usaHeuImg_3" src="resources/testing/testing-row_2_left.png" alt="user-testing-row2-screenshot1"></td>
+                                            <td><img id="usaHeuImg_4" src="resources/testing/testing-row_2_right.png" alt="user-testing-row2-screenshot2"></td>
                                         </tr>
                                         <tr>
                                             <td>The first iteration wireframe for the list details screen.</td>
@@ -607,10 +648,10 @@
                                     <strong>Note the migration of the delete button from the list details screen to the list collection screen:</strong>                             
                                 </p>
                                 <div class="table-responsive">
-                                    <table class="table" id="usaHeuTable">
+                                    <table class="table" id="usaHeuTable_3">
                                         <tr>
-                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 3 left.png" alt="user-testing-row3-screenshot1"></td>
-                                            <td><img id="usaHeuImg" src="./resources/testing/testing - row 3 right.png" alt="user-testing-row3-screenshot2"></td>
+                                            <td><img id="usaHeuImg_5" src="resources/testing/testing-row_3_left.png" alt="user-testing-row3-screenshot1"></td>
+                                            <td><img id="usaHeuImg_6" src="resources/testing/testing-row_3_right.png" alt="user-testing-row3-screenshot2"></td>
                                         </tr>
                                         <tr>
                                             <td>The first iteration wireframe for the list details screen.</td>
@@ -639,7 +680,7 @@
                                         The same case is observed for account registration.
                                     </i>
                                     <br>
-                                    &nbsp&nbsp&nbsp&nbsp 
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
                                     Solution: Pop a toast to inform whether the operation is successful.
 
                                     <i>
@@ -647,13 +688,13 @@
                                         Android's Material Design guidelines.
                                     </i>
                                     <br>
-                                    &nbsp&nbsp&nbsp&nbsp 
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
                                     Solution: Follow the design guidelines.
 
                                     <i>
                                         The email field should help prevent errors by performing basic syntax checks.
                                     </i>
-                                    &nbsp&nbsp&nbsp&nbsp 
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
                                     Solution: Adopt an error helper text for password checks
                                 </p>
                                 <p>
@@ -666,10 +707,10 @@
                                     <strong>Note the toast that is popped with the message “Email Updated!”:</strong>                             
                                 </p>
                                 <div class="table-responsive">
-                                    <table class="table" id="usaHeuTable">
+                                    <table class="table" id="usaHeuTable_4">
                                         <tr>
-                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 1 left.png" alt="user-eval-row1-screenshot1"></td>
-                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 1 right.png" alt="user-eval-row1-screenshot2"></td>
+                                            <td><img id="usaHeuImg_7" src="resources/eval/eval-row_1_left.png" alt="user-eval-row1-screenshot1"></td>
+                                            <td><img id="usaHeuImg_8" src="resources/eval/eval-row_1_right.png" alt="user-eval-row1-screenshot2"></td>
                                         </tr>
                                         <tr>
                                             <td>The second iteration of the wireframe for the screen shown after the email update 
@@ -687,13 +728,12 @@
                                         <li>The button takes the primary color and is now elevated to hint that it is clickable</li>
                                         <li>The bottom navigation options are now labeled and display a distinction between the 
                                             enabled and the selected states</li>
-                                    </ul>                     
-                                </p>
+                                    </ul>
                                 <div class="table-responsive">
-                                    <table class="table" id="usaHeuTable">
+                                    <table class="table" id="usaHeuTable_5">
                                         <tr>
-                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 2 left.png" alt="user-eval-row2-screenshot1"></td>
-                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 2 right.png" alt="user-eval-row2-screenshot2"></td>
+                                            <td><img id="usaHeuImg_9" src="resources/eval/eval-row_2_left.png" alt="user-eval-row2-screenshot1"></td>
+                                            <td><img id="usaHeuImg_10" src="resources/eval/eval-row_2_right.png" alt="user-eval-row2-screenshot2"></td>
                                         </tr>
                                         <tr>
                                             <td>The second iteration of the wireframe for the verification code screen for the email 
@@ -707,10 +747,10 @@
                                     <strong>Note the toast that is popped with the message “Email Updated!”:</strong>                             
                                 </p>
                                 <div class="table-responsive">
-                                    <table class="table" id="usaHeuTable">
+                                    <table class="table" id="usaHeuTable_6">
                                         <tr>
-                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 3 left.png" alt="user-eval-row3-screenshot1"></td>
-                                            <td><img id="usaHeuImg" src="./resources/eval/eval - row 3 right.png" alt="user-eval-row3-screenshot2"></td>
+                                            <td><img id="usaHeuImg_11" src="resources/eval/eval-row_3_left.png" alt="user-eval-row3-screenshot1"></td>
+                                            <td><img id="usaHeuImg_12" src="resources/eval/eval-row_3_right.png" alt="user-eval-row3-screenshot2"></td>
                                         </tr>
                                         <tr>
                                             <td>The second iteration of the wireframe for the email update screen.</td>
@@ -771,7 +811,7 @@
                 </p>
             </div>
         </div>
-    
+        </div>
         <nav class="navbar fixed-bottom navbar-dark ">
             <div class="container-fluid">
                 <a class="navbar-brand mx-auto" id="footer" href="#">SWE263P UX Group 3 Course Project @Copyright</a>
