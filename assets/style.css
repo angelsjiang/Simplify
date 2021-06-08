@@ -18,10 +18,6 @@ a {
     text-align: center;
 }
 
-/* .navbar-brand.mb-0.h1 {
-    font-size: 30px;
-} */
-
 #logo {
     max-width: 140px;
     margin-left: auto;
@@ -30,8 +26,7 @@ a {
 
 body {
     padding-top: 70px;
-    margin-left: 10%;
-    margin-right: 10%;
+    max-width: 900px;
     padding-bottom: 100px;
 }
 
@@ -47,7 +42,7 @@ body {
     padding-right: 5%;
     background-color: #e2eef0;
     text-align: center;
-    width: 75%;
+    width: 90%;
     margin: auto;
     color: #616a72;
     border-radius: 15px;
@@ -92,20 +87,27 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
-#specialPhrases {
+#specialPhrases_1,
+#specialPhrases_2 {
     background-color: #ffd1c8;
 }
 
-#paraLinks {
+#paraLinks_1,
+#paraLinks_2 {
     color: #bb6256;
 }
 
-#paraLinks:hover {
+#paraLinks_1:hover,
+#paraLinks_2:hover {
     color: black;
     background-color: #fba094;
 }
 
-#paragraphList {
+#paragraphList_1,
+#paragraphList_2,
+#paragraphList_3,
+#paragraphList_4,
+#paragraphList_5 {
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -130,7 +132,10 @@ table {
     font-size: 10px;
 }
 
-#subSecTitles {
+#subSecTitles_1,
+#subSecTitles_2,
+#subSecTitles_3,
+#subSecTitles_4 {
     background-color:#ffbfb3;
     padding: 3px;
 }
@@ -147,12 +152,18 @@ table {
     margin-right: auto;
 }
 
-#personas {
+#personas_1,
+#personas_2,
+#personas_3,
+#personas_4 {
     max-width: 400px;
 }
 
-#userStoriesSpecialSection,
-#usaHeuSpecialSection {
+#userStoriesSpecialSection_1,
+#userStoriesSpecialSection_2,
+#userStoriesSpecialSection_3,
+#usaHeuSpecialSection_1,
+#usaHeuSpecialSection_2 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -164,12 +175,30 @@ table {
     margin-right: auto;
 }
 
-#userStoriesImg,
-#usaHeuImg {
+#userStoriesImg_1,
+#userStoriesImg_2,
+#userStoriesImg_3,
+#usaHeuImg_1,
+#usaHeuImg_2,
+#usaHeuImg_3,
+#usaHeuImg_4,
+#usaHeuImg_5,
+#usaHeuImg_6,
+#usaHeuImg_7,
+#usaHeuImg_8,
+#usaHeuImg_9,
+#usaHeuImg_10,
+#usaHeuImg_11,
+#usaHeuImg_12 {
     width: 270px;
 }
 
-#usaHeuTable {
+#usaHeuTable_1,
+#usaHeuTable_2,
+#usaHeuTable_3,
+#usaHeuTable_4,
+#usaHeuTable_5,
+#usaHeuTable_6 {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -200,6 +229,6 @@ video {
 }
 
 #footer {
-    font-size: 18px;
+    font-size: 12px;
     color: white;
 }
