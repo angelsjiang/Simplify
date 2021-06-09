@@ -152,6 +152,12 @@ table {
     margin-right: auto;
 }
 
+#personaTableNote,
+#userStoriesTableNote {
+    font-size: 10px;
+    text-align: center;
+}
+
 #personas_1,
 #personas_2,
 #personas_3,
