@@ -241,70 +241,124 @@
                                     and the other indirect.
                                 </p>
                                 <div class="table-responsive-md">
-                                    <table class="table" id="competitiveTables">
-<!--                                        <tr>-->
-<!--                                            <th rowspan="7" id="c">Categories/Name</th>-->
-<!--                                        </tr>-->
+                                    <table class="table">
+                                        <thead class="table-subheader" id="t">
                                         <tr>
-                                            <th colspan="1" scope="col" id="c">Categories/Name</th>
-                                            <th colspan="1" scope="col" id="f">Flipp</th>
-                                            <th colspan="1" scope="col" id="g">Grocery Pal</th>
-                                            <th colspan="1" scope="col" id="r">Ralphs</th>
+                                            <th scope="col" id="c">Categories/Names</th>
+                                            <th scope="col" id="f">Flipp</th>
+                                            <th scope="col" id="g">Grocery Pal</th>
+                                            <th scope="col" id="r">Ralphs</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row" id="dc" headers="c">Direct Competitor</th>
+                                            <td>✓</td>
+                                            <td>✓</td>
+                                            <td></td>
                                         </tr>
                                         <tr>
-                                            <th id="c1" scope="row" headers="c">Direct Competitor</th>
-                                            <td id="f1" scope="row" headers="f">✓</td>
-                                            <td id="g1" scope="row" headers="g">✓</td>
-                                            <td id="r1" scope="row" headers="r"></td>
+                                            <th scope="row" id="aw" headers="c">Available on Web</th>
+                                            <td>✓</td>
+                                            <td></td>
+                                            <td>✓</td>
                                         </tr>
                                         <tr>
-                                            <th id="c2" scope="row" headers="c">Available on Web</th>
-                                            <td id="f2" scope="row" headers="f">✓</td>
-                                            <td id="g2" scope="row" headers="g"></td>
-                                            <td id="r2" scope="row" headers="r">✓</td>
+                                            <th scope="row" id="am" headers="c">Available on Mobile</th>
+                                            <td>✓</td>
+                                            <td>✓</td>
+                                            <td>✓</td>
                                         </tr>
                                         <tr>
-                                            <th id="c3" scope="row" headers="c">Available on Mobile</th>
-                                            <td id="f3" scope="row" headers="f">✓</td>
-                                            <td id="g3" scope="row" headers="g">✓</td>
-                                            <td id="r3" scope="row" headers="r">✓</td>
+                                            <th scope="row" id="psl" headers="c">Provides Shopping List</th>
+                                            <td>✓</td>
+                                            <td>✓</td>
+                                            <td>✓</td>
                                         </tr>
                                         <tr>
-                                            <th id="c4" scope="row" headers="c">Provides Shopping List</th>
-                                            <td id="f4" scope="row" headers="f">✓</td>
-                                            <td id="g4" scope="row" headers="g">✓</td>
-                                            <td id="r4" scope="row" headers="r">✓</td>
+                                            <th scope="row" id="pwl" headers="c">Provides Watch List</th>
+                                            <td>✓</td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
-                                            <th id="c5" scope="row" headers="c">Provides Watch List</th>
-                                            <td id="f5" scope="row" headers="f">✓</td>
-                                            <td id="g5" scope="row" headers="g"></td>
-                                            <td id="r5" scope="row" headers="r"></td>
+                                            <th scope="row" id="pph" headers="c">Provides Price History</th>
+                                            <td></td>
+                                            <td>✓</td>
+                                            <td></td>
                                         </tr>
                                         <tr>
-                                            <th id="c6" scope="row" headers="c">Provides Price History</th>
-                                            <td id="f6" scope="row" headers="f"></td>
-                                            <td id="g6" scope="row" headers="g">✓</td>
-                                            <td id="r6" scope="row" headers="r"></td>
+                                            <th scope="row" id="ppf" headers="c">Provides Purchasing Feature</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td>✓</td>
                                         </tr>
-                                        <tr>
-                                            <th id="c7" scope="row" headers="c">Provides Purchasing Feature</th>
-                                            <td id="f7" scope="row" headers="f"></td>
-                                            <td id="g7" scope="row" headers="g"></td>
-                                            <td id="r7" scope="row" headers="r">✓</td>
-                                        </tr>
-<!--                                        <thead class="table-subheader" id="competitiveheader">-->
-<!--                                        <tr>-->
-<!--                                            <th scope="col">Categories/Name</th>-->
-<!--                                            <th scope="col">Flipp</th>-->
-<!--                                            <th scope="col">Grocery Pal</th>-->
-<!--                                            <th scope="col">Ralphs</th>-->
-<!--                                        </tr>-->
-<!--                                        </thead>-->
-<!--                                        <tbody>-->
-
-<!--                                        </tbody>-->
+                                        </tbody>
                                     </table>
+<!--                                    <table class="table" id="competitiveTable" headers="accordion-body">-->
+<!--&lt;!&ndash;                                        <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <th rowspan="7" id="c">Categories/Name</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </tr>&ndash;&gt;-->
+<!--                                        <tr>-->
+<!--                                            <th colspan="1" scope="col" id="c" headers="competitiveTable">Categories/Name</th>-->
+<!--                                            <th colspan="1" scope="col" id="f" headers="competitiveTable">Flipp</th>-->
+<!--                                            <th colspan="1" scope="col" id="g" headers="competitiveTable">Grocery Pal</th>-->
+<!--                                            <th colspan="1" scope="col" id="r" headers="competitiveTable">Ralphs</th>-->
+<!--                                        </tr>-->
+<!--                                        <tr>-->
+<!--                                            <th id="c1" scope="row" headers="c">Direct Competitor</th>-->
+<!--                                            <td id="f1" scope="row" headers="f">✓</td>-->
+<!--                                            <td id="g1" scope="row" headers="g">✓</td>-->
+<!--                                            <td id="r1" scope="row" headers="r"></td>-->
+<!--                                        </tr>-->
+<!--                                        <tr>-->
+<!--                                            <th id="c2" scope="row" headers="c">Available on Web</th>-->
+<!--                                            <td id="f2" scope="row" headers="f">✓</td>-->
+<!--                                            <td id="g2" scope="row" headers="g"></td>-->
+<!--                                            <td id="r2" scope="row" headers="r">✓</td>-->
+<!--                                        </tr>-->
+<!--                                        <tr>-->
+<!--                                            <th id="c3" scope="row" headers="c">Available on Mobile</th>-->
+<!--                                            <td id="f3" scope="row" headers="f">✓</td>-->
+<!--                                            <td id="g3" scope="row" headers="g">✓</td>-->
+<!--                                            <td id="r3" scope="row" headers="r">✓</td>-->
+<!--                                        </tr>-->
+<!--                                        <tr>-->
+<!--                                            <th id="c4" scope="row" headers="c">Provides Shopping List</th>-->
+<!--                                            <td id="f4" scope="row" headers="f">✓</td>-->
+<!--                                            <td id="g4" scope="row" headers="g">✓</td>-->
+<!--                                            <td id="r4" scope="row" headers="r">✓</td>-->
+<!--                                        </tr>-->
+<!--                                        <tr>-->
+<!--                                            <th id="c5" scope="row" headers="c">Provides Watch List</th>-->
+<!--                                            <td id="f5" scope="row" headers="f">✓</td>-->
+<!--                                            <td id="g5" scope="row" headers="g"></td>-->
+<!--                                            <td id="r5" scope="row" headers="r"></td>-->
+<!--                                        </tr>-->
+<!--                                        <tr>-->
+<!--                                            <th id="c6" scope="row" headers="c">Provides Price History</th>-->
+<!--                                            <td id="f6" scope="row" headers="f"></td>-->
+<!--                                            <td id="g6" scope="row" headers="g">✓</td>-->
+<!--                                            <td id="r6" scope="row" headers="r"></td>-->
+<!--                                        </tr>-->
+<!--                                        <tr>-->
+<!--                                            <th id="c7" scope="row" headers="c">Provides Purchasing Feature</th>-->
+<!--                                            <td id="f7" scope="row" headers="f"></td>-->
+<!--                                            <td id="g7" scope="row" headers="g"></td>-->
+<!--                                            <td id="r7" scope="row" headers="r">✓</td>-->
+<!--                                        </tr>-->
+<!--&lt;!&ndash;                                        <thead class="table-subheader" id="competitiveheader">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <th scope="col">Categories/Name</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <th scope="col">Flipp</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <th scope="col">Grocery Pal</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <th scope="col">Ralphs</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </thead>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <tbody>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                                        </tbody>&ndash;&gt;-->
+<!--                                    </table>-->
                                     <p id="annotations">
                                         *Flipp (<a href="https://flipp.com/home">flipp.com</a>) by Flipp Corporation
                                         <br>*Grocery Pal by Twicular, Inc.
