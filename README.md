@@ -16,7 +16,7 @@
 ## [CSS styling](https://github.com/angelsjiang/Simplify/blob/main/assets/style.css)
 
 - Modified background color
-```js
+```css
 .nav-link.dropdown-toggle {
     background-color: #fba094;
     font-weight: bold;
@@ -24,7 +24,7 @@
 ```
 
 - Modified padding and margins
-```sh
+```css
 body {
     padding-top: 70px;
     margin-left: 10%;
@@ -32,16 +32,31 @@ body {
     padding-bottom: 100px;
 }
 ```
+
+- Google Fonts
+```html
+<!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+```
+```css
+font-family: 'Roboto', sans-serif;
+font-family: 'Limelight', cursive;
+font-family: 'Lato', sans-serif;
+```
+
 ## Advance features
 - A table with multiple columns and rows
-```sh
+```html
 <table class="table">
-    <thead>
+    <thead class="table-subheader" id="t">
         <tr>
-            <th scope="col"></th>
-            <th scope="col">Flipp</th>
-            <th scope="col">Grocery Pal</th>
-            <th scope="col">Ralphs</th>
+            <th scope="col" id="c">Categories/Names</th>
+            <th scope="col" id="f">Flipp</th>
+            <th scope="col" id="g">Grocery Pal</th>
+            <th scope="col" id="r">Ralphs</th>
         </tr>    
     </thead>
     <tbody>
@@ -51,47 +66,10 @@ body {
             <td>✓</td>
             <td></td>
         </tr>
-        <tr>
-            <th scope="row">Available on Web</th>
-            <td>✓</td>
-            <td></td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <th scope="row">Available on Mobile</th>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <th scope="row">Provides Shopping List</th>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <th scope="row">Provides Watch List</th>
-            <td>✓</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="row">Provides Price History</th>
-            <td></td>
-            <td>✓</td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="row">Provides Purchasing Feature</th>
-            <td></td>
-            <td></td>
-            <td>✓</td>
-        </tr>
-    </tbody>
-</table>
+        ...
 ```
 - Navigation bar
-```sh
+```html
 <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -99,22 +77,16 @@ body {
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                </ul>
-            </div> -->
-
-            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
+            ...
 ```
 - Video
-```sh
+```html
     <video controls>
         <source src="./resources/demo.mp4" type="video/mp4">
         Demo video for Simplify application.<br>
         Your browser does not support HTML5 video.
     </video>
+    ...
 ```
 
 # Online resources links
